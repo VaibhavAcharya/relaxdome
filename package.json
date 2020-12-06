@@ -1,6 +1,7 @@
 {
   "name": "nextjs-tailwindcss",
   "version": "0.1.0",
+  "description": "A quick template of Next.js project with tailwindcss.",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,5 +12,10 @@
     "next": "10.0.3",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.0.1",
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.14"
   }
 }
