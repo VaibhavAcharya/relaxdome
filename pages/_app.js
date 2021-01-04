@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import "./../styles/tailwind.css";
 
+// Create group (chat rooms), invite people, talk and destroy group after one hour of inactivity.
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -13,7 +14,7 @@ function MyApp({ Component, pageProps }) {
           content="A short description of this site."
         />
 
-        {/* <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" /> */}
+        <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
 
         <title>Untitled</title>
       </Head>
