@@ -9,6 +9,7 @@ import Footer from "../components/layouts/Footer";
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <GoogleFonts href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" />
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,8 +20,6 @@ function MyApp({ Component, pageProps }) {
 
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         
-        <GoogleFonts href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" />
-
         <title>Relaxdome</title>
       </Head>
       <div className="font-poppins text-base font-normal px-8 sm:px-32 lg:px-56 py-4 space-y-8">
