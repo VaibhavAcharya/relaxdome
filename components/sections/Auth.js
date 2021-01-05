@@ -1,9 +1,8 @@
 import Button from "../ui/Button";
-import { BRAND_COLOR } from './../../consts';
 
 export default function Auth () {
   return (
-    <section className={`md:w-1/2 p-4 flex flex-col items-center justify-center text-center bg-${BRAND_COLOR}-100 space-y-6`}>
+    <section className={`md:w-1/2 p-4 flex flex-col items-center justify-center text-center bg-green-100 space-y-6`}>
       <h2 className="text-4xl font-black flex flex-col">
         <span>👋</span>
         <span>Get started <i>using</i></span>
