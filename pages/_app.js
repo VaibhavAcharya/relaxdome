@@ -2,7 +2,9 @@ import Head from "next/head";
 
 import "./../styles/tailwind.css";
 
-// Create group (chat rooms), invite people, talk and destroy group after one hour of inactivity.
+import Navbar from "../components/layouts/Navbar";
+import Footer from "../components/layouts/Footer";
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -16,10 +18,17 @@ function MyApp({ Component, pageProps }) {
 
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
 
-        <title>Untitled</title>
+        <title>Relaxdome</title>
       </Head>
-      <div className="font-sans">
-        <Component { ...pageProps } />
+      <div className="font-poppins text-base font-normal px-8 sm:px-32 lg:px-56 py-4 space-y-8">
+        <div className="bg-blue-100 p-2 text-center font-black">
+          🚧 Development in progress.
+        </div>
+        <Navbar />
+        <main className="">
+          <Component { ...pageProps } />
+        </main>
+        <Footer />
       </div>
     </>
   );
