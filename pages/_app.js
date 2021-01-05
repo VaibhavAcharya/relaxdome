@@ -1,4 +1,5 @@
 import Head from "next/head";
+import GoogleFonts from "next-google-fonts";
 
 import "./../styles/tailwind.css";
 
@@ -17,6 +18,8 @@ function MyApp({ Component, pageProps }) {
         />
 
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+        
+        <GoogleFonts href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" />
 
         <title>Relaxdome</title>
       </Head>

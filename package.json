@@ -10,12 +10,13 @@
   },
   "dependencies": {
     "next": "10.0.3",
+    "next-google-fonts": "^1.2.1",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "tailwindcss": "^2.0.1",
     "autoprefixer": "^10.0.4",
-    "postcss": "^8.1.14"
+    "postcss": "^8.1.14",
+    "tailwindcss": "^2.0.1"
   }
 }
